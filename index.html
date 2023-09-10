@@ -1,0 +1,232 @@
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		.small-square {
+			position: absolute;
+			right: 0;
+			height: 80px;
+			width: 80px;
+			background: yellow;
+		}
+
+		.medium-square {
+			height: 200px;
+			width: 300px;
+			background: red;
+		}
+
+		.big-square {
+			position: relative;
+			height: 400px;
+			width: 400px;
+			background: deepskyblue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="big-square">
+		<div class="medium-square">
+			<div class="small-square"></div>
+		</div>
+	</div>
+
+    <div style="width: 100px; height: 100px; background: red; position: relative; top: 50px;"></div>
+</body>
+
+</html> -->
+
+<!-- ============================================= -->
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+  <title>Inline CSS</title>
+  <style>
+    .card {
+      box-shadow: 0px 2px 10px lightgrey;
+      padding-bottom: 10px;
+      width: 250px;
+      border-radius: 10px;
+      background: lightgrey;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+
+    p {
+      background: white;
+      padding: 10px;
+      margin: 0 10px;
+    }
+
+    .description {
+      margin: 5px;
+      border-radius: 10px;
+    }
+
+    #close-button {
+      position: absolute;
+      font-size: 22px;
+      right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <span id="close-button">&#10006;</span>
+    <h1>Mr Snuggles</h1>
+    <div style="width: 100%">
+      <img width="100%"
+        src="https://static-assets.skilvul.com/lesson/intro-to-css/cat.jpg" />
+      <div class="description">
+        <p>I like warm places.</p>
+        <p>If it fits, I sits.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html> -->
+
+<!-- =========================================== -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Pertamaku</title>
+    <style>
+        div {
+            width: 100%;
+            background-color: yellow;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        h1 {
+            font-size: 10vw;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Halo Dunia</h1>
+    <p>
+      Ini adalah contoh untuk mengatur file HTML agar bisa menjadi responsif.
+    </p>
+    <img src="https://static-assets.skilvul.com/lesson/intro-to-css/responsive-design-percentage-cat.jpeg" alt="kucing">
+    <div>
+    </div>
+  </body>
+</html> -->
+
+<!-- ============================= -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* body {
+        max-width: 800px;
+      }
+      .button-group {
+        display: flex;
+      }
+      button {
+        font-size: 25px;
+        width: 100%;
+      }
+
+      @media (max-width: 600px) {
+        .button-group {
+            display: flex;
+            flex-direction: column;
+        }
+    } */
+    @media (max-width: 400px) {
+        .img {
+            width: 100%;
+        }
+    }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cat Ltd.</h1>
+    <img
+      src="https://static-assets.skilvul.com/lesson/intro-to-css/responsive-design-percentage-cat.jpeg"
+      
+    />
+    <div class="button-group">
+      <button>Talk to Us</button>
+      <button>Download Syllabus</button>
+      <button>Be a Partner</button>
+      <button>Join Class</button>
+    </div>
+  </body>
+</html> -->
+
+<!-- =========================== -->
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .inline-block {
+        width: 31%;
+        height: 100px;
+        margin: 4px;
+        background: #ec5453;
+        display: inline-block;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="inline-block">1</div>
+    <div class="inline-block">2</div>
+    <div class="inline-block">3</div>
+    <div class="inline-block">4</div>
+    <div class="inline-block">5</div>
+  </body>
+</html> -->
+
+<!-- ====================================== -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #flex-container {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .flex-item {
+        flex-basis: 100%;
+        height: 100px;
+        margin: 4px;
+        background: #ec5453;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="flex-container">
+      <div class="flex-item">1</div>
+      <div class="flex-item">2</div>
+      <div class="flex-item">3</div>
+      <div class="flex-item">4</div>
+      <div class="flex-item">5</div>
+    </div>
+  </body>
+</html>
