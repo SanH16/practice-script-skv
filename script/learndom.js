@@ -47,3 +47,18 @@ function inputKeParagraf() {
 
   document.getElementsByClassName("uhuy")[0].innerText = valueInput;
 }
+
+const checkButton = () => {
+  const formInput = document.getElementById("form");
+  const result = document.getElementById("result");
+
+  result.textContent = formInput.value;
+  result.style.color = "purple";
+  result.style.fontSize = "20px";
+  result.style.fontWeight = "700";
+};
+
+let catImage = document.getElementById("cat-image");
+catImage.setAttribute("src", "https://bit.ly/3j6YdWJ");
+catImage.setAttribute("alt", "Fish");
+catImage.setAttribute("width", "250px");
