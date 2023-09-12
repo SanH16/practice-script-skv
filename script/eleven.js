@@ -46,3 +46,21 @@ let mahasiswa = (name, npm, hobby) => {
   return anonymous.desc();
 };
 mahasiswa("adhitya Hasan", "2024240088", ["Ngoding", "tidur", "makan"].join(" - "));
+
+// example 4
+
+const product = (productName, productCategory, productPrice) => {
+  let product = {
+    name: productName,
+    categories: [productCategory],
+    price: productPrice,
+    desc: function () {
+      console.log(
+        `Nama produk : ${product.name}\nCategory Product : ${product.categories}\nProduct Price : ${product.price} $`
+      );
+    },
+  };
+  return product.desc();
+};
+
+product("Nike Air Jordan", ["Brand New", "BNIB"].join(" - "), 200);
