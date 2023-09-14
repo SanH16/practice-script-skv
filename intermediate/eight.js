@@ -22,6 +22,12 @@ console.log(inventory);
    ["Topi", 7],
   ]
 */
+console.log(inventory[0][0]); // Output: Kaos Polos
+console.log(inventory[0][1]); // Output: 21
+console.log(inventory[1][0]); // Output: Jaket Hoodie
+console.log(inventory[1][1]); // Output: 13
+console.log(inventory[2][0]); // Output: Topi
+console.log(inventory[2][1]); // Output: 7
 
 // contoh lainnya
 let buah = [
@@ -46,7 +52,7 @@ let transport = [
 ];
 
 console.log(transport);
-transport.push(["Pesawat", 6]);
+transport.push(["Pesawat", 6]); // push
 console.log(transport);
 console.log(transport[3]); // tampilkan hanya pesawat
 
@@ -66,3 +72,5 @@ let hapus = clothes.splice(1, 1);
 
 // let hasil = `Total penjualan ${item} ada sebanyak ${jumlahTerjual} item`;
 console.log(`Total penjualan ${item} ada sebanyak ${jumlahTerjual} item`);
+
+// ===========================
