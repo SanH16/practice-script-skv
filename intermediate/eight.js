@@ -41,6 +41,7 @@ console.log(buah);
 // ============ Cara Mengakses array Multidimensi ============
 
 // namaArray[indexBaris][indexKolom];
+
 console.log(buah[2][0]); // Semangka
 console.log(inventory[2][0]); // Semangka
 
