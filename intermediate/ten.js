@@ -48,3 +48,26 @@ data.forEach((dataInventory) => {
   dataInventory.push(stokTersisa);
 });
 console.log("-------------- Contoh .forEach( SESUDAH ) --------------\n", data);
+
+// contoh menggunakan .map()
+let array = [
+  ["Nike air", 31],
+  ["Adidas", 35],
+  ["Vans", 15],
+];
+console.log("-------------- Contoh .map( SEBELUM ) --------------\n", array);
+
+array.map((item) => {
+  let sisaStok = 100 - item[1];
+  item.push(sisaStok);
+});
+
+array.map((row) => {
+  row.map((kolom) => {
+    console.log(kolom);
+  });
+});
+
+console.log("-------------- Contoh .map( SETELAH ) --------------\n", array);
+
+console.log(`Nama : ${array[0][0]} stok: ${array[0][1]} sisa: ${array[0][2]}`);
